@@ -1,13 +1,6 @@
 Seq1="ATGTTATAG"
+#print(Seq1[::3])
 
-a=0
-li=''
-
-for i in Seq1:
-    a += 1
-    li.append(i)
-    if a % 3 == 0:
-        print(li)
-
-print(Seq1[0:])
-
+for i in range(0,len(Seq1),3):
+   # print(i , Seq1[i])
+    print(i, i+3, Seq1[i:i+3])

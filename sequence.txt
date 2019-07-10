@@ -1,0 +1,13 @@
+ACGTACGTAAAA
+TTTTGGGGCCCC
+
+
+
+
+
+'''
+(C+G/A+G+C+T)*100
+'''
+
+
+
